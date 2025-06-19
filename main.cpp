@@ -63,6 +63,13 @@ int main()
     countdown--;
     }
     cout << "Happy New Year\n";
-    
+
+
+    //The For loop is used when you know exactly how many times you want the loop to iterate. It looks like the While loop rearranged, but ah well....
+    for (int i=0; i < 5; i++) {
+        cout << i;
+    }
+    // So this code prints i as long as it's less than 5. You might think it's the same as the While loop, but here's the difference:
+    // You see in the previous code, the loop runs until the user chooses "exit". So the code basically has no definite amount of iteration times. It'll keep iterating until the user selects "exit". But with the For loop, we know exactly how many times we want the code to run. So in that particular block of code, we can't use the For loop because it has to iterate until the user selects "exit". So even though the For loop can be used to run some programs the same way as the While loop, that's the difference between them.
 }
  
