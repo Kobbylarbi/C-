@@ -71,5 +71,25 @@ int main()
     }
     // So this code prints i as long as it's less than 5. You might think it's the same as the While loop, but here's the difference:
     // You see in the previous code, the loop runs until the user chooses "exit". So the code basically has no definite amount of iteration times. It'll keep iterating until the user selects "exit". But with the For loop, we know exactly how many times we want the code to run. So in that particular block of code, we can't use the For loop because it has to iterate until the user selects "exit". So even though the For loop can be used to run some programs the same way as the While loop, that's the difference between them.
+
+    for (int i = 0; i < 10; i++) {
+    if (i == 5) {
+        break;
+    }
+    cout << i << " ";
 }
+// In this code, the output is 1234. The moment i is equal to 5, it says, "Aight.. I'm out." This is because of the break; It doesn't even bother to check i = 5 to 9
+
+
+
+for (int i = 0; i < 5; i++) {
+    if (i == 2) {
+        continue;
+    }
+    cout << i << " ";
+}
+// For this, it'll skip the value specified in the if statement and continue with the rest of the code.
+
+}
+
  
