@@ -53,5 +53,16 @@ int main()
 }
     while (choice != 3);
  return 0;
-}
+
  //So this code asks the user what they wanna do and prints stuff according to the choice they make. NB: You cannot attach strings to the cases. If you wanna deal with strings, you gotta use if-else. So this is an application of the switch and the loops to create the program.
+
+  //The following code does a countdown and wishes you Happy New Year
+    int countdown=5;
+    while (countdown>0) {
+    cout << countdown<<endl;
+    countdown--;
+    }
+    cout << "Happy New Year\n";
+    
+}
+ 
