@@ -28,6 +28,7 @@ int main()
 
    int choice;
    do {
+    cout << "Welcome to Kobby's gym" <<endl;
     cout << "What do you wanna do?" << endl;
     cout << "1. Shoot\n";
     cout << "2. Dribble\n";
